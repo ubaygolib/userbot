@@ -1,0 +1,21 @@
+# Telegram
+pyTelegramBotAPI>=4.33.0
+pyrogram>=2.0.106
+tgcrypto>=1.2.5
+
+# Google AI — faqat bitta, eng yangi
+google-genai>=2.2.0
+
+# HTTP
+httpx>=0.28.1
+requests>=2.34.0
+
+# Google sheets
+gspread>=6.2.1
+google-auth>=2.52.0
+
+# Utility
+schedule>=1.2.2
+pytz>=2026.2
+tzlocal
+flask
