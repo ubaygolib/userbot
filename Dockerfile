@@ -2,12 +2,12 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Agar requirements.txt asosiy papkada bo'lsa:
+# Avval talab qilingan kutubxonalarni nusxalash va o'rnatish
 COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Qolgan fayllarni ham ko'chirish uchun (muhim!)
+# Keyin qolgan barcha fayllarni (userbot.py, main.py va hokazo) to'liq ko'chirish
 COPY . .
 
-RUN pip install -r requirements.txt
-
-CMD ["python", "userbot.py"]
+# Botni asosiy main.py fayli orqali ishga tushiramiz!
+CMD ["python", "main.py"]
