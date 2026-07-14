@@ -2,11 +2,12 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
+# Agar requirements.txt asosiy papkada bo'lsa:
 COPY requirements.txt .
-RUN pip install -r requirements.txt
 
+# Qolgan fayllarni ham ko'chirish uchun (muhim!)
 COPY . .
 
-EXPOSE 7860
+RUN pip install -r requirements.txt
 
-CMD ["python3", "main.py"]
+CMD ["python", "userbot.py"]
