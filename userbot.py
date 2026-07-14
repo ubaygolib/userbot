@@ -17,12 +17,12 @@ known_users = set()
 
 # --- TAYYOR JAVOBLAR (Produktiv hayot tarzi uchun) ---
 MESSAGES = {
-    "uyqu": "Assalomu alaykum! Hozir uxlab dam olyapman (Bomdodgacha). Uyg'onganimdan keyin o'zim xabaringizga javob yozaman 🌙",
+    "uyqu": "Assalomu alaykum! Hozir uxlab dam olyapman. Uyg'onganimdan keyin o'zim xabaringizga javob yozaman 🌙",
     "yugurish": "Salom! Hozir yugurish mashg'ulotida edim. Masofani yugurib bo'lgach, albatta aloqaga chiqaman 🏃‍♂️",
-    "gym": "Assalomu alaykum! Hozir sport zalida (gym) mashg'ulot qilyapman. Mashqlarim tugagach o'zim yozaman 💪",
+    "gym": "Assalomu alaykum! Hozir sport zalida (gym) mashg'ulotda edim Telefonim yonimda yo'q. Mashqlarim tugagach o'zim yozaman 💪",
     "ish": "Assalomu alaykum! Hozir ishda, ma'lumotlar bazasi va jadvallar bilan ishlab, jarayonga butunlay sho'ng'ib ketgan edim. Diqqatimni bo'la olmayman, bo'shashim bilan o'zim javob qaytaraman 💻",
     "majlis": "Assalomu alaykum! Hozir muhim majlisdaman. Qatnashayotganim uchun telefonim ovozsiz rejimda. Tugashi bilan o'zim aloqaga chiqaman 📊",
-    "dam": "Assalomu alaykum! Bugun dam olish kuni, shaxsiy ishlar va hordiq chiqarish bilan bandman. Tez orada aloqaga chiqaman ☕️",
+    "dam": "Assalomu alaykum! Bugun dam olish kuni, shaxsiy ishlar bilan bandman. Tez orada aloqaga chiqaman ☕️",
     "tog": "Assalomu alaykum! Hozir tog'daman, bu yerda umuman antena yo'q (aloqa yo'q). Pastga tushganimdan keyin o'zim yozaman ⛰️",
     "hordiq": "Assalomu alaykum! Hozir boshqa joyda, dam olish ta'tilida edim. Telefonimga kam qarayapman, bo'sh vaqtim bo'lishi bilan javob yozaman 🌴",
     "on": "Assalomu alaykum! Xabaringizni oldim, lekin hozir biroz band edim. Vaqt topishim bilan o'zim sizga aloqaga chiqaman."
